@@ -1,0 +1,29 @@
+#starterContainer{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+}
+
+#timerContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border: 2px solid black;
+    display: none;
+}
+
+#quizContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: none;
+}
+
+#feedbackContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    display: none;
+}

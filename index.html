@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz!</title>
+    <!-- Original CSS file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="highscore">
+        <p>View Higscore</p>
+    </div>
+    
+    <!-- Landing -->
+    <div id="starterContainer">
+        <br>
+        <h1>CODING QUIZ!</h1>
+        <h2>Do you think you can get it all?</h2>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg">START!</button>
+    </div>
+    
+    <!-- Countdown Timer -->
+    <div id="timerContainer">
+        <h4>Timer: <span id="timer"></span></h4>
+    </div>
+
+    <br>
+
+    <!-- Using Jumbotron to organize the quiz -->
+    <div id="quizContainer">
+        <div class="jumbotron">
+            <h3 class="display-5" id="question">Questions go here</h3>
+            <br>
+            <!-- All the choices -->
+            <div class="btn-group-vertical" role="group" aria-label="Answers">
+                <button type="button" class="btn btn-outline-primary" id="1">Choice 1</button>
+                <br>
+                <button type="button" class="btn btn-outline-primary" id="2">Choice 2</button>
+                <br>
+                <button type="button" class="btn btn-outline-primary" id="3">Choice 3</button>
+                <br>
+                <button type="button" class="btn btn-outline-primary" id="4">Choice 4</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instant feedback: Right/Wrong -->
+    <div id="feedbackContainer">
+        <h5 id="feedback">Wrong!</h5>
+    </div>
+
+    <!-- JS script for controlling -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
