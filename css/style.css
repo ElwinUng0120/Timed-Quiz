@@ -11,6 +11,7 @@
     margin-right: auto;
     width: 200px;
     border: 2px solid black;
+    text-align: center;
     display: none;
 }
 
@@ -26,4 +27,9 @@
     margin-right: auto;
     width: 150px;
     display: none;
+}
+
+#highscoreButton{
+    margin-left: 40px;
+    margin-top: 20px;
 }

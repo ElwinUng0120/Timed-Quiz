@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div id="highscore">
-        <p>View Higscore</p>
+    <div id="highscoreButton">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#highscoreContainer">View Highscore</button>
     </div>
     
     <!-- Landing -->
@@ -27,7 +27,7 @@
     
     <!-- Countdown Timer -->
     <div id="timerContainer">
-        <h4>Timer: <span id="timer"></span></h4>
+        <h4>Time: <span id="timer">60s</span></h4>
     </div>
 
     <br>
@@ -38,23 +38,40 @@
             <h3 class="display-5" id="question">Questions go here</h3>
             <br>
             <!-- All the choices -->
-            <div class="btn-group-vertical" role="group" aria-label="Answers">
-                <button type="button" class="btn btn-outline-primary" id="1">Choice 1</button>
+            <div class="btn-group-vertical" role="group" aria-label="Answers" id="choices">
+                <button type="button" class="btn btn-outline-primary" value="1">Choice 1</button>
                 <br>
-                <button type="button" class="btn btn-outline-primary" id="2">Choice 2</button>
+                <button type="button" class="btn btn-outline-primary" value="2">Choice 2</button>
                 <br>
-                <button type="button" class="btn btn-outline-primary" id="3">Choice 3</button>
+                <button type="button" class="btn btn-outline-primary" value="3">Choice 3</button>
                 <br>
-                <button type="button" class="btn btn-outline-primary" id="4">Choice 4</button>
+                <button type="button" class="btn btn-outline-primary" value="4">Choice 4</button>
             </div>
         </div>
     </div>
 
     <!-- Instant feedback: Right/Wrong -->
     <div id="feedbackContainer">
-        <h5 id="feedback">Wrong!</h5>
+        <h5></h5>
     </div>
 
+    <div id="highscoreContainer" class="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">Leaderboard</h5>
+              <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ol id="highscore">   
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     <!-- JS script for controlling -->
     <script src="./js/script.js"></script>
 </body>
