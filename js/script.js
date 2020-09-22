@@ -1,4 +1,5 @@
 var starter = document.querySelector("#starterContainer");
+var timer = document.querySelector("#timerContainer");
 var quiz = document.querySelector("#quizContainer");
 var choiceGroup = document.querySelector("#choices");
 var feedback = document.querySelector("#feedbackContainer");
