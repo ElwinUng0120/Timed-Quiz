@@ -5,16 +5,16 @@ This project has the following abilities:
 - After making a choice, a new set of question and answers will be inserted
 - Able to check if player made a new highscore and display that when "View Highscore" is pressed
 
-## Notes:
-- Highscore is refreshed every time the page is reloaded
-- localStorage is not used in the current build
-
 <br>
 
 This project contains the folloing:
 - index.html: Contains Landing page, Quiz page and Game-ended page all in one.
 - script.js: Uses javascript to control which HTML element is displayed on screen as well as manage the quiz.
 - style.css: General styling for index.html.
+
+## Notes:
+- Highscore is refreshed every time the page is reloaded
+- localStorage is not used in the current build
 
 <br>
 
