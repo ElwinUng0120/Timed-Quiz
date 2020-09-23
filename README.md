@@ -19,7 +19,7 @@ This project contains the folloing:
 <br>
 
 This project was made using **HTML5**, **Bootstrap**, **Javascript** and **CSS**.<br>
-This project is currently hosted on Github Pages:
+This project is currently hosted on Github Pages: https://elwinung0120.github.io/Timed-Quiz/
 
 # index.html
 - Contains the following **Bootstrap** elements: Jumbotron, Modal, Buttons
