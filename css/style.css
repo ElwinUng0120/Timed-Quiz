@@ -29,7 +29,27 @@
     display: none;
 }
 
+#endContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: none;
+    text-align: center;
+}
+
 #highscoreButton{
     margin-left: 40px;
     margin-top: 20px;
+}
+
+#name{
+    float: left;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#score{
+    float: right;
+    margin-right: 10%;
+    font-weight: bold;
 }
