@@ -55,6 +55,7 @@
         <h5></h5>
     </div>
 
+    <!-- Highscore modal-->
     <div id="highscoreContainer" class="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -64,13 +65,23 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <ol id="highscore">   
-              </ol>
+            <div class="modal-body" id="highscore">
+              <p class="name"></p>
+              <p class="score"></p>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Thank you message after the game -->
+      <div id="endContainer">
+        <div class="jumbotron">
+            <h3 class="display-5">Thank you for taking the Quiz!!</h3>
+            <hr class="my-4" style="border-top: 1px solid black">
+            <h1 id="showScore"></h1>
+            <button id="restart" type="button" class="btn btn-primary btn-lg">Restart</button>
+        </div>
+    </div>
       
     <!-- JS script for controlling -->
     <script src="./js/script.js"></script>
