@@ -12,14 +12,14 @@ This project contains the folloing:
 - script.js: Uses javascript to control which HTML element is displayed on screen as well as manage the quiz.
 - style.css: General styling for index.html.
 
-## Notes:
-- Highscore is refreshed every time the page is reloaded
-- localStorage is not used in the current build
-
 <br>
 
 This project was made using **HTML5**, **Bootstrap**, **Javascript** and **CSS**.<br>
 This project is currently hosted on Github Pages: https://elwinung0120.github.io/Timed-Quiz/
+
+## Notes:
+- Highscore is refreshed every time the page is reloaded
+- localStorage is not used in the current build
 
 # index.html
 - Contains the following **Bootstrap** elements: Jumbotron, Modal, Buttons
